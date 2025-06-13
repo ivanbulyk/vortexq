@@ -1,6 +1,6 @@
 # VortexQ
 
-    VortexQ is a lightweight, generic publish‑subscribe message broker service written in Go.
+    VortexQ - a lightweight, generic open-source distributed event streaming system written in Go.
     It exposes REST endpoints for publishing and subscribing, and ships with built‑in Prometheus metrics, health checks, and graceful shutdown.
 
     ## Features
