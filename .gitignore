@@ -1,0 +1,72 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Go binaries and build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+/pkg/
+/dist/
+/coverage.txt
+
+# Go workspace files (if using Go workspaces)
+go.work
+go.work.sum
+
+# Dependency directories
+vendor/
+Godeps/
+
+# Go module files (normally you should commit these, but here for completeness)
+# go.mod
+# go.sum
+
+
+# Coverage tool output
+*.cover
+coverage.out
+coverage.html
+profile.out
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Log files
+*.log
+
+# Local development tools
+air.conf
+
+# Binary output (when built with go build)
+/<project-name>  # Replace with your actual project name
+
+# Dependency management tool specific
+Gopkg.lock
+glide.lock
+
+# Debug files
+__debug_bin
+debug
+
+# Temporary files
+/tmp
+*.tmp
+*.bak
+
